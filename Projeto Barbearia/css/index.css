@@ -1,0 +1,62 @@
+section{
+  padding: 30px;
+  border-bottom: 2px dashed black;
+}
+
+/* header */
+
+/* main */
+
+.subTitulo{
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.text-apresentacao{
+  width: 50%;
+}
+
+#apresentacao div img{
+  height: 100px;
+  width: 100px;
+}
+
+#beneficios{
+  gap: 10%;
+}
+
+#beneficios div ul li{
+  line-height: 1.5;
+}
+
+#beneficios div ul li:before {
+  content: "🟊";
+}
+
+#beneficios div img{
+  height: 300px;
+  width: 300px;
+}
+
+#video iframe{
+  height: 400px;
+  width: 50%;
+  border: 1px white solid;
+}
+
+#localidade{
+  flex-direction: column;
+  gap: 30px;
+  border: none;
+}
+
+#localidade iframe{
+  width: 90%;
+  height: 300px;
+}
+
+.imagem-beneficios, #localidade iframe, #apresentacao div img {
+  box-shadow: 10px 10px 10px black;
+}
+
+/* footer */
